@@ -254,28 +254,52 @@
       <h3>Send us a Order</h3>
     </div>
     <div class="col-md-8 col-md-offset-2">
-     <form method="post" action="contact_me.php" enctype="text/plain">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="form-group">
-              <input type="text" id="name" class="form-control" placeholder="Name" required="required">
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="form-group">
-              <input type="email" id="email" class="form-control" placeholder="Email" required="required">
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-        </div>
-        <div class="form-group">
-          <textarea name="message order cake" id="Order " class="form-control" rows="4" placeholder="Cake" required></textarea>
-          <p class="help-block text-danger"></p>
-        </div>
-        <div id="success"></div>
-        <button type="submit" class="btn btn-custom btn-lg">Send Order</button>
-      </form>
+     
+<form method="post" action="mailto:ruvsen134@yahoo.com" enctype="text/plain">
+  <font style="Arial" color="#000000">First Name:</font><br>
+  <input type="text" name="firstname"><br>
+  <br>
+  <font style="Arial" color="#000000">Last Name:</font><br>
+  <input type="text"><br>
+<br>
+<font style="Arial" color="#000000">Address:</font><br>
+  <input type="text" width="20"><br>
+<br>
+<font style="Arial" color="#D35400"><b>Your Order:</b></font><br>
+  <select>
+  <option value="Chocolate spike cake">Chocolate spike cake</option>
+  <option value="Mango Cake">Mango Cake</option>
+  <option value="Mango Graham Cake">Mango Graham Cake</option>
+  <option value="Triple Chocolate Cake">Triple Chocolate Cake</option>
+  <option value="Cheese Cake">Cheese Cake</option>
+  <option value="Strawberry Cake">Stawberry Cake</option>
+  <option value="Sansrival Cake">Sansrival Cake</option>
+</select>
+<br>
+
+<font style="Arial" color="#D35400"><b>Size:</b></font><br>
+  
+<select>
+  <option value="Petite">Petite - 300</option>
+  <option value="Small">Small - 400</option>
+  <option value="Medium">Medium - 500</option>
+  <option value="Large">Large - 700</option>
+</select>
+<br>
+<br>
+<font style="Arial" color="#D35400">Date needed:</font>
+
+<input type="date" name="trip-start"
+       value="2018-12-13"
+       min="2018-01-01" max="2019-12-31">
+<br>
+<br>
+<font style="Arial" color="#D35400"><b>Additional Information:</b></font><br>
+  <input type="text" width="20" size="50"><br>
+<br>
+<br>
+  <input type="submit" value="Submit">
+</form>
     </div>
   </div>
 </div>
